@@ -1,0 +1,120 @@
+.link-primary {
+    color: #57068C;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+pre,
+code,
+kbd,
+samp {
+    font-family: "Montserrat",
+        sans-serif;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+    font-family: "Montserrat",
+        sans-serif;
+}
+
+.tooltip {
+    font-family: "Montserrat",
+        sans-serif;
+}
+
+.popover {
+    font-family: "Montserrat",
+        sans-serif;
+}
+
+.text-monospace {
+    font-family: "Montserrat",
+        sans-serif;
+}
+
+
+.container-fluid {
+    width: 80%;
+}
+
+
+.border-nyu {
+    border-color: #57068C;
+
+}
+
+.lighter {
+    background: rgb(255, 255, 255);
+}
+
+.figma {
+    color: rgb(255, 255, 255);
+    background: #57068C;
+    border-radius: 25px;
+}
+
+.rightalign {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+a {
+    color: #57068C;
+}
+
+.alerty {
+    background: rgba(237, 228, 245, 0.5);
+    color: #563D7C;
+    border: 1px solid #57068C;
+}
+
+.figma:hover {
+    background: rgb(255, 255, 255);
+    color: #57068C;
+    border-color: #57068C;
+    border-radius: 25px;
+}
+
+.col.gutter-40 {
+    margin-left: -20px;
+    margin-right: -20px;
+
+
+}
+
+
+html {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+    html {
+        font-size: 1.2rem;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    html {
+        font-size: 1.4rem;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    html {
+        font-size: 1.6rem;
+    }
+}
+
+.baby {
+    max-width: 30%;
+    height: auto;
+}
